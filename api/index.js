@@ -49,7 +49,7 @@ app.use("/api/categories", categoryRoute);
 
 if(process.env.NODE_ENV !== "production"){
   require("dotenv").config({
-      path:"back/.env"
+      path:"api/.env"
   })
 }
 
